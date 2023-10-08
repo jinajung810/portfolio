@@ -329,6 +329,10 @@ header ul li.year, header ul li.name {
   font-size: 22px;
   font-weight: 700;
 }
+.project .glitter-bottle .info h4 span {
+  font-size: 15px;
+  font-weight: 400;
+}
 .project .glitter-bottle .info p {
   margin-left: 12px;
   font-size: 15px;
@@ -561,6 +565,10 @@ header ul li.year, header ul li.name {
   font-size: 22px;
   font-weight: 700;
 }
+.project .da2ating .info h4 span {
+  font-size: 15px;
+  font-weight: 400;
+}
 .project .da2ating .info p {
   margin-left: 12px;
   font-size: 15px;
@@ -590,7 +598,7 @@ header ul li.year, header ul li.name {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 10px;
+  margin-left: 70px;
   margin-top: 90px;
   margin-bottom: 80px;
 }
