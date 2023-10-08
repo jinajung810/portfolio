@@ -183,26 +183,31 @@ header ul li.year, header ul li.name {
 }
 .project .movie-box {
   width: 100%;
-  height: 210px;
-  background-image: url(./images/mymoviebox.png);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size:auto;
+  height: 160px;
+  background-color: #CDBCDC;
   position: absolute;
   left: 0;
   bottom: 0;
   transition: height 0.3s ease;
-  overflow: hidden;
   color: #333;
 }
 .project .movie-box:hover {
-  height: 220px;
+  height: 170px;
 }
 .project .movie-box.active {
   height: 590px;
 }
+.project .movie-box .category {
+  width: 280px;
+  height: 55px;
+  border-radius: 20px 20px 0 0;
+  background-color: #CDBCDC;
+  margin-left: 150px;
+  margin-top: -50px;
+}
 .project .movie-box h3 {
-  margin-left: 170px;
+  padding: 10px;
+  padding-left: 20px;
 }
 .project .movie-box .outline img {
   width: 450px;
@@ -288,26 +293,31 @@ header ul li.year, header ul li.name {
 
 .project .glitter-bottle {
   width: 100%;
-  height: 180px;
-  background-image: url(./images/glitterbottle.png);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size:auto;
+  height: 130px;
+  background-color: #9AB2D4;
   position: absolute;
   left: 0;
   bottom: 0;
   transition: height 0.3s ease;
-  overflow: hidden;
   color: #333;
 }
 .project .glitter-bottle:hover {
-  height: 190px;
+  height: 140px;
 }
 .project .glitter-bottle.active {
   height: 560px;
 }
+.project .glitter-bottle .category {
+  width: 280px;
+  height: 55px;
+  border-radius: 20px 20px 0 0;
+  background: #9AB2D4;
+  margin-left: 340px;
+  margin-top: -50px;
+}
 .project .glitter-bottle h3 {
-  margin-left: 360px;
+  padding: 10px;
+  padding-left: 20px;
 }
 .project .glitter-bottle .outline img {
   width: 500px;
@@ -390,25 +400,30 @@ header ul li.year, header ul li.name {
 
 .project .monthly-todo {
   width: 100%;
-  height: 150px;
-  background-image: url(./images/todolist.png);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size:auto;
+  height: 100px;
+  background-color: #FFDF63;
   position: absolute;
   left: 0;
   bottom: 0;
   transition: height 0.3s ease;
-  overflow: hidden;
 }
 .project .monthly-todo:hover {
-  height: 160px;
+  height: 110px;
 }
 .project .monthly-todo.active {
   height: 530px;
 }
+.project .monthly-todo .category {
+  width: 280px;
+  height: 55px;
+  border-radius: 20px 20px 0 0;
+  background-color: #FFDF63;
+  margin-left: 530px;
+  margin-top: -50px;
+}
 .project .monthly-todo h3 {
-  margin-left: 550px;
+  padding: 10px;
+  padding-left: 20px;
 }
 .project .monthly-todo .outline img {
   width: 450px;
@@ -494,25 +509,30 @@ header ul li.year, header ul li.name {
 
 .project .da2ating {
   width: 100%;
-  height: 120px;
-  background-image: url(./images/da2ating.png);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size:auto;
+  height: 70px;
+  background-color: #B5DDAB;
   position: absolute;
   left: 0;
   bottom: 0;
   transition: height 0.3s ease;
-  overflow: hidden;
 }
 .project .da2ating:hover {
-  height: 130px;
+  height: 80px;
 }
 .project .da2ating.active {
   height: 500px;
 }
+.project .da2ating .category {
+  width: 280px;
+  height: 55px;
+  border-radius: 20px 20px 0 0;
+  background-color: #B5DDAB;
+  margin-left: 720px;
+  margin-top: -50px;
+}
 .project .da2ating h3 {
-  margin-left: 740px;
+  padding: 10px;
+  padding-left: 20px;
 }
 .project .da2ating .detail {
   padding: 0px 150px;
