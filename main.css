@@ -209,6 +209,15 @@ header ul li.year, header ul li.name {
   padding: 10px;
   padding-left: 20px;
 }
+.project .movie-box .detail {
+  padding-top: 20px;
+}
+.project .movie-box .outline p {
+  font-size: 15px;
+}
+.project .movie-box .outline p span {
+  font-size: 16px;
+}
 .project .movie-box .outline img {
   width: 450px;
   border-radius: 10px;
