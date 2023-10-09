@@ -543,7 +543,16 @@ header ul li.year, header ul li.name {
 }
 .project .da2ating .detail {
   padding: 0px 150px;
-  padding-top: 70px;
+  padding-top: 30px;
+}
+.project .da2ating .outline .award {
+  color: #2e7eee;
+  font-size: 18px;
+  font-weight: 700;
+}
+.project .da2ating .outline .award .material-symbols-outlined {
+  color: #2e7eee;
+  font-size: 16px;
 }
 .project .da2ating .outline p {
   font-size: 13px;
